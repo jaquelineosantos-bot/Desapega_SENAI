@@ -136,13 +136,8 @@ h2 {
 /* TELA PRINCIPAL*/
 
 .page {
-    border-color: #0056b3;
     width: 100%;
-    height: 40%;
-    vertical-align: top;
     box-shadow: 0 1px #ddd;
-    border: 0cm;
-    margin: 0;
 }
 
 .faixadecima{
@@ -152,9 +147,6 @@ h2 {
 .menu{
     text-align: right;
     color: #0056b3;
-}
-.body{
-    margin: 0%;
 }
 
  
