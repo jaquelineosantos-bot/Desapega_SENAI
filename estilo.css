@@ -29,6 +29,8 @@ body{
     flex-direction: column;
     
 }
+
+
 .campo{
     margin-bottom: 15px;
 
@@ -106,6 +108,10 @@ body{
 
 .google-btn:hover {
   background: #0056b3;
+}
+
+h2 {
+ text-align: center;
 }
 
  
