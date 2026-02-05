@@ -114,4 +114,24 @@ h2 {
  text-align: center;
 }
 
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;         
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.cadastro a {
+  color: #1a5cff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cadastro a:hover {
+  text-decoration: underline;
+}
+
+
  
