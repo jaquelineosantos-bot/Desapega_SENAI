@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>  
+<div class="Login-page">
+    
+<div class="Card">
+<h2>Inscrição</h2>    
+<div>
+     <div class="campo">
+      <label for="usuario">Nome</label>
+      <input type="text" id="usuario" placeholder="Digite seu nome">
+    </div>
+
+    <div class="campo">
+    <label for="matrícula">Número de Matrícula</label>
+<input
+  type="text"
+  placeholder="Digite o número de matrícula"
+  oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+<br>
+<br>
+
+<div>
+<a href="tela_principal.html" class="botao">Salvar inscrição</a>
+</div>
+
+
+
+</body>
+</html>
+
