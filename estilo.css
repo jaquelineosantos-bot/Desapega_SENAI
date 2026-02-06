@@ -160,6 +160,11 @@ h2 {
   text-decoration: none;
   font-weight: 500;
   margin-right: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #005CAA; 
+   width: 1vh;
+  padding: 1vh;
 }
 
 .menu input{
