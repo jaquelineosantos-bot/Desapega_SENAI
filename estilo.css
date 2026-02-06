@@ -134,18 +134,15 @@ h2 {
 }
 
 /* TELA PRINCIPAL*/
+
 .page {
   width: 100%;
   box-shadow: 0 1px #ddd;
   display: flex;
   align-items: center;
+  justify-items: center;
   gap: 10px;
   padding: 10px;
-}
-
-.faixadecima {
-  background-color: #0056b3;
-  height: 10px;
 }
 
 .logo2 img {
@@ -154,8 +151,10 @@ h2 {
   margin-left: 10px;  
 }
 
-.menu {
-  margin-left: auto;  
+.menu { 
+  display: flex;
+  gap: 30px;
+  
 }
 
 .menu a {
@@ -165,6 +164,10 @@ h2 {
   margin-right: 15px;
 }
 
+.menu input{
+border-color: #a8a8a8;
+border-radius: 20px;
+}
 
 .menu a:hover{
   background-color: #0056b3;
@@ -200,4 +203,7 @@ h2 {
 
 
 
+.menu2 {
+  border-color: #005CAA;
+}
  
