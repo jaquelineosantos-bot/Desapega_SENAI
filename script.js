@@ -7,3 +7,11 @@ function validarFormulario() {
     }
     return true;
 }
+
+/* slider */
+
+var imgSlider = document.querySelectorAll('.slider-container .slider-box');
+var btnNav = document.querySelectorAll('.btn-nav-box .btn-nav');
+
+let contadorImg = imgSlider.length;
+let imgAtiva = 0;

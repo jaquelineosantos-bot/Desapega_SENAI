@@ -212,5 +212,68 @@ padding: 0.25vw;
   color: white;
 }
 
+/* slider*/
+.interface {
+  max-width: 1288px;
+  padding: 0 4%;
+  height: 400px;
+}
+
+
+ .slider{
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 2px auto;
+
+
+  border: 2px solid #0056b3;
+  border-radius: 18px ;
+ }
+
+
+ .slider .slider-container .slider-box{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+ }
+ .slider-container .slider-box.ativo{
+  opacity: 1;
+ }
+ .slider .slider-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+ }
+/* botão de navegação*/
+.btn-nav-box{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+
+}
+.btn-nav-box .btn-nav{
+  width: 30px;
+  height: 5px;
+  border:  1px solid #8f8e8e;
+  border-radius: 8px;
+}
+.btn-nav-box .btn-nav:hover{
+  background-color: #8f8e8e;
+}
+.btn-nav-box .btn-nav.ativo{
+  background-color: #8f8e8e ;
+}
 
  
