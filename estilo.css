@@ -611,3 +611,32 @@ text-decoration: none;
   
   
 }
+
+/* perfil*/
+
+ .logoperfil{
+  background-color: #FF7F27;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 40px auto;
+  max-width: 100%;
+  border-radius: 18px ;
+ }
+
+ .fotoperfil{
+  background-color: #c7c7c7;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+
+ }
+ .seguidor {
+  background-color: #c7c7c7;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #3b82f6 ;
+ }
+ 
