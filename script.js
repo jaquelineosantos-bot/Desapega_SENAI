@@ -1,12 +1,8 @@
 function validarFormulario() {
     var nome = document.getElementById('usuario').value;
     var senha = document.getElementById('senha').value;
-    var numMatrícula = document.getElementById('numMatrícula').value;
-    var numTelefone = document.getElementById('numTelefone').value;
-    var email = document.getElementById('email').value;
-    var emailConfirmar = document.getElementById('emailConfirmar').value;
-    var confirmarSenha = document.getElementById('confirmarSenha').value;
-    if (nome.trim()=="" || senha.trim()=="" || numMatrícula.trim()=="" || numTelefone.trim()=="" || email.trim()=="" || emailConfirmar.trim()=="" ||confirmarSenha.trim()==""   ) {
+    
+    if (nome.trim()=="" || senha.trim()=="") {
         alert('Por favor, preencha todos os campos obrigatórios.');
         return false;
     }
