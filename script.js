@@ -1,3 +1,5 @@
+/* Tela de Login*/
+
 function validarFormulario() {
     var nome = document.getElementById('usuario').value;
     var senha = document.getElementById('senha').value;
@@ -8,11 +10,34 @@ function validarFormulario() {
     }
     if (email != emailConfirmar && senha != confirmarSenha){
         alert('');
-        return false
+        return false;
     }
 
     return true;
 }
+
+let bnt_eye = document.querySelector('#versenha');
+
+bnt_eye.addEventListener('click', ()=>{
+    let inputSenha = document.querySelector('#senha');
+
+    if(inputSenha.getAttribute('type') == 'password'){
+       inputSenha.setAttribute('type', 'text');
+    }else{
+        inputSenha.setAttribute('type', 'password');
+    }
+})
+let bnt_eyeConfirm = document.querySelector('#verconfirmesenha');
+
+bnt_eyeConfirm.addEventListener('click', ()=>{
+    let inputSenhaConfirm = document.querySelector('#confirmarSenha');
+
+    if(inputSenhaConfirm.getAttribute('type') == 'password'){
+       inputSenhaConfirm.setAttribute('type', 'text');
+    }else{
+        inputSenhaConfirm.setAttribute('type', 'password');
+    }
+})
 
 /* slider */
 

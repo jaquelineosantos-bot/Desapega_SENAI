@@ -32,6 +32,7 @@ body{
 
 .campo{
     margin-bottom: 15px;
+    position: relative;
 
 }
 
@@ -50,6 +51,15 @@ body{
     
     border-radius: 20px;
     border: 1px solid #005CAA;
+}
+
+.ri-eye-line{
+  position: absolute;
+  top: 41px;
+  right: 10px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  color: #858585;
 }
 
 .botao {
